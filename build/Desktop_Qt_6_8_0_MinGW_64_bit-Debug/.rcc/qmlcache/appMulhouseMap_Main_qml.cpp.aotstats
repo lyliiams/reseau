@@ -1,0 +1,716 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 584,
+                        "errorMessage": "",
+                        "functionName": "initialCenter",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 33,
+                        "durationMicroseconds": 36654,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "trajetVoiture",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 2432,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "trajetVoiture2",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 17,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "center",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "zoomLevel",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 260,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 85
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 83,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "coordinate",
+                        "line": 96
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 535,
+                        "errorMessage": "Cannot access value for name image",
+                        "functionName": "x",
+                        "line": 97
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 459,
+                        "errorMessage": "Cannot access value for name image",
+                        "functionName": "y",
+                        "line": 98
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 470,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 121,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 124,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 110
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 111
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 112
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 91,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 113
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 114
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 185,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 115
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 116
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 117
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 118
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 119
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 120
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 95,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 121
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 122
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 123
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 125
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 118,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 126
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 127
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 128
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 129
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 130
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 131
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 132
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 134
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 135
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 136
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 137
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 76,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 138
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 60,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 139
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 140
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 141
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 142
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 143
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 144
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 145
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 146
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 148
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 149
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 150
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 151
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 152
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 153
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 154
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 250,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 155
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 156
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 157
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 158
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "coordinate",
+                        "line": 166
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 291,
+                        "errorMessage": "Cannot access value for name image",
+                        "functionName": "x",
+                        "line": 167
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 207,
+                        "errorMessage": "Cannot access value for name image",
+                        "functionName": "y",
+                        "line": 168
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 185,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 177
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 178
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 179
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 157,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 180
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: appWindow",
+                        "functionName": "to",
+                        "line": 181
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 270,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 190
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 256,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 191
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 204
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 220
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 370,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 230
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 752,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 231
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 250
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 31,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on centerIn.",
+                        "functionName": "centerIn",
+                        "line": 243
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 269
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on horizontalCenter.",
+                        "functionName": "horizontalCenter",
+                        "line": 262
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 26,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on top.",
+                        "functionName": "top",
+                        "line": 263
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 287
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on horizontalCenter.",
+                        "functionName": "horizontalCenter",
+                        "line": 280
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on bottom.",
+                        "functionName": "bottom",
+                        "line": 281
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 305
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 37,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on verticalCenter.",
+                        "functionName": "verticalCenter",
+                        "line": 298
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on left.",
+                        "functionName": "left",
+                        "line": 299
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 323
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 37,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on verticalCenter.",
+                        "functionName": "verticalCenter",
+                        "line": 316
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on right.",
+                        "functionName": "right",
+                        "line": 317
+                    }
+                ],
+                "filepath": "C:/Users/lyliams/Documents/MulhouseMap/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Main.qml"
+            }
+        ],
+        "moduleId": "MulhouseMap(appMulhouseMap)"
+    }
+]

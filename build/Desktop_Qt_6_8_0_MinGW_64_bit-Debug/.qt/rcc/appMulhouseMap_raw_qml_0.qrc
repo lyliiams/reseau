@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/MulhouseMap/">
+    <file alias="Main.qml">C:/Users/lyliams/Documents/MulhouseMap/Main.qml</file>
+    <file alias="car1.png">C:/Users/lyliams/Documents/MulhouseMap/car1.png</file>
+    <file alias="car2.png">C:/Users/lyliams/Documents/MulhouseMap/car2.png</file>
+    <file alias="resources.qrc">C:/Users/lyliams/Documents/MulhouseMap/resources.qrc</file>
+  </qresource>
+</RCC>
+
