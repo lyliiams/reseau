@@ -18,6 +18,10 @@ ApplicationWindow {
     // Propriété pour ajuster la sensibilité du glissement
     property real panSensitivity: 0.005 // Ajustez pour des déplacements plus petits ou plus grands
 
+    property real communicationRange: 0.005 // Portée de communication entre véhicules
+    function sendMessage(sender, receiver, message) {
+        console.log(`${sender} à ${receiver}: ${message}`);
+    }
     // Déclaration des animations ici pour qu'elles soient accessibles par les boutons
     NumberAnimation {
         id: panAnimationX
@@ -202,47 +206,114 @@ ApplicationWindow {
 
 
 
-        MapQuickItem {
-            id: voiture3
-            coordinate: appWindow.trajetVoiture3[0] // Ajout de "appWindow"
-            anchorPoint.x: 16
-            anchorPoint.y: 16
-            sourceItem: Image {
-                source: "car2.png"
-                width: 32
-                height: 32
+        // MapQuickItem {
+        //     id: voiture3
+        //     coordinate: appWindow.trajetVoiture3[0] // Ajout de "appWindow"
+        //     anchorPoint.x: 16
+        //     anchorPoint.y: 16
+        //     sourceItem: Image {
+        //         source: "car2.png"
+        //         width: 32
+        //         height: 32
+        //     }
+
+        //     SequentialAnimation on coordinate {
+        //         loops: Animation.Infinite
+        //         // Ajout de "appWindow" pour chaque référence à "trajetVoiture3"
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[1]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[2]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[3]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[4]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[5]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[6]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[7]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[8]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[9]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[10]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[11]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[12]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[13]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[14]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[15]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[16]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[17]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[18]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[19]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[20]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[21]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[22]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[23]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[24]; duration: 500 }
+        //         PropertyAnimation { to: appWindow.trajetVoiture3[25]; duration: 500 }
+        //     }
+        // }
+
+            MapQuickItem {
+                id: voiture3
+                coordinate: appWindow.trajetVoiture3[0]
+                anchorPoint.x: 16
+                anchorPoint.y: 16
+                sourceItem: Image {
+                    source: "car1.png"
+                    width: 32
+                    height: 32
+                }
+
+                SequentialAnimation on coordinate {
+                    loops: Animation.Infinite
+                    PropertyAnimation { to: appWindow.trajetVoiture3[1]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[2]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[3]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[4]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[5]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[6]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[7]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[8]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[9]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[10]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[11]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[12]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[13]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[14]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[15]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[16]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[17]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[18]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[19]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[20]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[21]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[22]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[23]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[24]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[25]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[26]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[27]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[28]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[29]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[30]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[31]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[32]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[33]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[34]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[35]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[36]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[37]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[38]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[39]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[40]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[41]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[42]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[43]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[44]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[45]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[46]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[47]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[48]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[49]; duration: 500 }
+                                                    PropertyAnimation { to: appWindow.trajetVoiture3[50]; duration: 500 }
+                }
             }
 
-            SequentialAnimation on coordinate {
-                loops: Animation.Infinite
-                // Ajout de "appWindow" pour chaque référence à "trajetVoiture3"
-                PropertyAnimation { to: appWindow.trajetVoiture3[1]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[2]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[3]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[4]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[5]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[6]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[7]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[8]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[9]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[10]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[11]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[12]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[13]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[14]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[15]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[16]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[17]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[18]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[19]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[20]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[21]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[22]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[23]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[24]; duration: 500 }
-                PropertyAnimation { to: appWindow.trajetVoiture3[25]; duration: 500 }
-            }
-        }
 
 
 
@@ -289,44 +360,113 @@ ApplicationWindow {
             delegate: hexagonComponent
         }
 
-        // Timer pour vérifier les collisions
+        //Timer pour vérifier les collisions
+        // Timer {
+        //     interval: 100 // Vérifie toutes les 100 ms
+        //     running: true
+        //     repeat: true
+        //     onTriggered: {
+        //         let voitures = [
+        //             { id: voiture1, color: appWindow.carColors[0], signalStrength: 50 },
+        //             { id: voiture2, color: appWindow.carColors[1], signalStrength: 60 },
+        //             { id: voiture3, color: appWindow.carColors[2], signalStrength: 70 }
+        //         ];
+
+        //         for (let i = 0; i < hexagonRepeater.count; ++i) {
+        //             let hexagon = hexagonRepeater.itemAt(i);
+
+        //             // Réinitialise la couleur de l'hexagone
+        //             hexagon.color = "transparent";
+
+        //             // Dictionnaire pour accumuler les forces de signal par couleur
+        //             let signalByColor = {};
+
+        //             for (let voiture of voitures) {
+        //                 let carX = voiture.id.coordinate.latitude;
+        //                 let carY = voiture.id.coordinate.longitude;
+        //                 let hexX = hexagon.centerX;
+        //                 let hexY = hexagon.centerY;
+        //                 let distance = Math.sqrt(Math.pow(carX - hexX, 2) + Math.pow(carY - hexY, 2));
+
+        //                 if (distance <= hexagon.r) {
+        //                     // Ajoute la force de signal au total pour cette couleur
+        //                     if (!signalByColor[voiture.color]) {
+        //                         signalByColor[voiture.color] = 0;
+        //                     }
+        //                     signalByColor[voiture.color] += voiture.signalStrength;
+        //                 }
+        //             }
+
+        //             // Trouve la couleur avec la plus grande somme de force de signal
+        //             let maxSignal = 0;
+        //             let dominantColor = "transparent";
+
+        //             for (let color in signalByColor) {
+        //                 if (signalByColor[color] > maxSignal) {
+        //                     maxSignal = signalByColor[color];
+        //                     dominantColor = color;
+        //                 }
+        //             }
+
+        //             // Applique la couleur dominante à l'hexagone
+        //             hexagon.color = dominantColor;
+        //         }
+        //     }
+        // }
+
         Timer {
             interval: 100 // Vérifie toutes les 100 ms
             running: true
             repeat: true
             onTriggered: {
-                let voitures = [
-                    { id: voiture1, color: appWindow.carColors[0], signalStrength: 50 },
-                    { id: voiture2, color: appWindow.carColors[1], signalStrength: 60 },
-                    { id: voiture3, color: appWindow.carColors[2], signalStrength: 70 }
+                let vehicles = [
+                    { id: voiture1, coordinate: voiture1.coordinate, color: appWindow.carColors[0] },
+                    { id: voiture2, coordinate: voiture2.coordinate, color: appWindow.carColors[1] },
+                    { id: voiture3, coordinate: voiture3.coordinate, color: appWindow.carColors[2] }
                 ];
 
-                for (let i = 0; i < hexagonRepeater.count; ++i) {
+                // Communication entre véhicules
+                for (let i = 0; i < vehicles.length; i++) {
+                    let sender = vehicles[i];
+                    for (let j = 0; j < vehicles.length; j++) {
+                        if (i !== j) {
+                            let receiver = vehicles[j];
+                            let distance = Math.sqrt(
+                                Math.pow(sender.coordinate.latitude - receiver.coordinate.latitude, 2) +
+                                Math.pow(sender.coordinate.longitude - receiver.coordinate.longitude, 2)
+                            );
+                            if (distance <= appWindow.communicationRange) {
+                                console.log(`${sender.color} communique avec ${receiver.color}`);
+                                sendMessage(sender.color, receiver.color, "Message échangé");
+                            }
+                        }
+                    }
+                }
+
+                // Interaction avec les hexagones
+                for (let i = 0; i < hexagonRepeater.count; i++) {
                     let hexagon = hexagonRepeater.itemAt(i);
 
                     // Réinitialise la couleur de l'hexagone
                     hexagon.color = "transparent";
 
-                    // Dictionnaire pour accumuler les forces de signal par couleur
                     let signalByColor = {};
 
-                    for (let voiture of voitures) {
-                        let carX = voiture.id.coordinate.latitude;
-                        let carY = voiture.id.coordinate.longitude;
-                        let hexX = hexagon.centerX;
-                        let hexY = hexagon.centerY;
-                        let distance = Math.sqrt(Math.pow(carX - hexX, 2) + Math.pow(carY - hexY, 2));
-
-                        if (distance <= hexagon.r) {
-                            // Ajoute la force de signal au total pour cette couleur
-                            if (!signalByColor[voiture.color]) {
-                                signalByColor[voiture.color] = 0;
+                    for (let vehicle of vehicles) {
+                        let distanceToHexagon = Math.sqrt(
+                            Math.pow(vehicle.coordinate.latitude - hexagon.centerX, 2) +
+                            Math.pow(vehicle.coordinate.longitude - hexagon.centerY, 2)
+                        );
+                        if (distanceToHexagon <= hexagon.r) {
+                            sendMessage(vehicle.color, `Hexagone ${i}`, "Données transmises");
+                            if (!signalByColor[vehicle.color]) {
+                                signalByColor[vehicle.color] = 0;
                             }
-                            signalByColor[voiture.color] += voiture.signalStrength;
+                            signalByColor[vehicle.color] += 1; // Vous pouvez ajuster la logique ici
                         }
                     }
 
-                    // Trouve la couleur avec la plus grande somme de force de signal
+                    // Trouver la couleur dominante parmi les signaux
                     let maxSignal = 0;
                     let dominantColor = "transparent";
 
@@ -337,7 +477,7 @@ ApplicationWindow {
                         }
                     }
 
-                    // Applique la couleur dominante à l'hexagone
+                    // Appliquer la couleur dominante à l'hexagone
                     hexagon.color = dominantColor;
                 }
             }
@@ -345,6 +485,8 @@ ApplicationWindow {
 
 
     }
+
+
 
     // Boutons de Zoom dans le coin supérieur droit
     Column {
@@ -499,6 +641,10 @@ ApplicationWindow {
           }
 
 }
+
+
+
+
 
 
 
